@@ -3,7 +3,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/hautkuty2q2s6227?svg=true)](https://ci.appveyor.com/project/madskristensen/gulpsnippetpack)
 
 Download this extension from the
-[VS Gallery](https://visualstudiogallery.msdn.microsoft.com/5d11e28f-0f7c-4f6e-ae50-699fcd5a3500)
+[VS Gallery](https://visualstudiogallery.msdn.microsoft.com/9e26d1f9-1baf-4983-8c25-f5f769998d4f)
 or get the
 [nightly build](http://vsixgallery.com/extension/17c6719c-d92f-4bdb-a145-ea2d6dd70900/).
 
