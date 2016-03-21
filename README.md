@@ -1,6 +1,6 @@
 ﻿# Gulp Snippet Pack for Visual Studio
 
-[![Build status](https://ci.appveyor.com/api/projects/status/ws4nxf1ypue4xwy3?svg=true)](https://ci.appveyor.com/project/madskristensen/jasminesnippetpack)
+[![Build status](https://ci.appveyor.com/api/projects/status/hautkuty2q2s6227?svg=true)](https://ci.appveyor.com/project/madskristensen/gulpsnippetpack)
 
 Download this extension from the
 [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/5d11e28f-0f7c-4f6e-ae50-699fcd5a3500)
