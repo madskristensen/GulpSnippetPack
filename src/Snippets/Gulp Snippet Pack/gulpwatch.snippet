@@ -1,0 +1,26 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>gulpwatch</Title>
+        <Shortcut>gulpwatch</Shortcut>
+        <Author>Mads Kristensen</Author>
+        <Description>Code snippet for writing Gulp tasks</Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>file</ID>
+                <Default>file</Default>
+            </Literal>
+            <Literal>
+                <ID>tasks</ID>
+                <Default>tasks</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="JavaScript">
+            <![CDATA[gulp.watch('$file$', ['$tasks$']);$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

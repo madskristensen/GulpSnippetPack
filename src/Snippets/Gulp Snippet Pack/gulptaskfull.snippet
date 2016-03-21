@@ -1,0 +1,42 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>gulptaskfull</Title>
+        <Shortcut>gulptaskfull</Shortcut>
+        <Author>Mads Kristensen</Author>
+        <Description>Code snippet for writing Gulp tasks</Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>name</ID>
+                <Default>name</Default>
+            </Literal>
+            <Literal>
+                <ID>tasks</ID>
+                <Default>tasks</Default>
+            </Literal>
+            <Literal>
+                <ID>files</ID>
+                <Default>files</Default>
+            </Literal>
+            <Literal>
+                <ID>plugin</ID>
+                <Default>plugin</Default>
+            </Literal>
+            <Literal>
+                <ID>folder</ID>
+                <Default>folder</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="JavaScript">
+            <![CDATA[gulp.task('$name$',['$tasks$'], function() {
+    gulp.src('$files$')
+        .pipe($plugin$())
+        .pipe(gulp.dest('$folder$'));
+});$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

@@ -1,0 +1,27 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>gulp</Title>
+        <Shortcut>gulp</Shortcut>
+        <Author>Mads Kristensen</Author>
+        <Description>Code snippet for gulpfile.js</Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>name</ID>
+                <ToolTip>Name of task</ToolTip>
+                <Default>name</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="JavaScript">
+            <![CDATA[var gulp = require("gulp");
+
+gulp.task("$name$", function () {
+    $end$
+});]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

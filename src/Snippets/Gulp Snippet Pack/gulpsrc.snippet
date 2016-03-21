@@ -1,0 +1,27 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>gulpsrc</Title>
+        <Shortcut>gulpsrc</Shortcut>
+        <Author>Mads Kristensen</Author>
+        <Description>Code snippet for writing Gulp tasks</Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>src</ID>
+                <Default>src</Default>
+            </Literal>
+            <Literal>
+                <ID>plugin</ID>
+                <Default>plugin</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="JavaScript">
+            <![CDATA[gulp.src('$src$')
+        .pipe($plugin$)$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>
