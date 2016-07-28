@@ -10,7 +10,7 @@ or get the
 -----------------------------------------
 
 A snippet pack to make you more productive working with
-the Gulp task runner. 
+the Gulp task runner in Visual Studio. 
 
 This extension contains code snippets for Gulp from the
 awesome [Gulp Snippets](https://marketplace.visualstudio.com/items?itemName=tanato.vscode-gulp)
