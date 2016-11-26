@@ -4,5 +4,5 @@
 "Snippets"="$PackageFolder$\GulpSnippetPack"
 
 ; VS 2017
-[$RootKey$\Languages\CodeExpansions\TypeScript\Paths]
-"Snippets"="$PackageFolder$\GulpSnippetPack"
+;[$RootKey$\Languages\CodeExpansions\TypeScript\Paths]
+;"Snippets"="$PackageFolder$\GulpSnippetPack"
