@@ -1,8 +1,3 @@
 ﻿
-; VS 2012-2015
 [$RootKey$\Languages\CodeExpansions\JavaScript\Paths]
 "Snippets"="$PackageFolder$\GulpSnippetPack"
-
-; VS 2017
-;[$RootKey$\Languages\CodeExpansions\TypeScript\Paths]
-;"Snippets"="$PackageFolder$\GulpSnippetPack"
